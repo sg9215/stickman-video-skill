@@ -1,0 +1,40 @@
+{
+  "title": "The Challenger — Stickman Demo",
+  "scenes": [
+    {
+      "name": "arrival",
+      "duration": 8.0,
+      "frames": 240
+    },
+    {
+      "name": "challenge",
+      "duration": 9.5,
+      "frames": 285
+    },
+    {
+      "name": "victory",
+      "duration": 7.0,
+      "frames": 210
+    }
+  ],
+  "warnings": [
+    "[arrival] actor 'hero' performance ends at 6.37s (scene 8.00s) — figure holds its final pose",
+    "[challenge] actor 'hero' performance ends at 6.90s (scene 9.50s) — figure holds its final pose",
+    "[challenge] actor 'rival' performance ends at 5.44s (scene 9.50s) — figure holds its final pose",
+    "[victory] actor 'hero' performance ends at 4.57s (scene 7.00s) — figure holds its final pose"
+  ],
+  "outputs": {
+    "video": "/tmp/demo_build2/video.mp4",
+    "styk": [
+      "/tmp/demo_build2/project_scene00.styk",
+      "/tmp/demo_build2/project_scene00.styk.json",
+      "/tmp/demo_build2/project_scene01.styk",
+      "/tmp/demo_build2/project_scene01.styk.json",
+      "/tmp/demo_build2/project_scene02.styk",
+      "/tmp/demo_build2/project_scene02.styk.json"
+    ],
+    "previews": "/tmp/demo_build2/previews",
+    "duration_s": 24.5,
+    "render_seconds": 99.9
+  }
+}

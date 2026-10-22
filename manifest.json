@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "name": "stickman-video-skill",
+  "display_name": "Stickman Video Director",
+  "version": "1.0.0",
+  "description": "Plan and produce professional stickman animation videos: director-style planning (5-stage narrative arc, storyboard, approval gate) followed by production-grade rendering (1080p30 MP4 via Python+ffmpeg) plus native StykAnimate .styk project export. Full control of every stickman joint, environments, props, camera moves, and text overlays.",
+  "author": "sg9215",
+  "license": "MIT",
+  "homepage": "https://github.com/sg9215/stickman-video-skill",
+  "keywords": [
+    "stickman", "animation", "pivot", "stykz", "stykanimate",
+    "video-generation", "storyboard", "director", "2d-animation"
+  ],
+  "entry_points": {
+    "cli": {
+      "command": "python scripts/stickman_video.py",
+      "subcommands": ["validate", "preview", "build", "demo", "actions"],
+      "working_dir": "skill_root"
+    }
+  },
+  "skills": [
+    {
+      "name": "stickman-video-director",
+      "path": ".",
+      "file": "SKILL.md",
+      "trigger": [
+        "stickman video", "stick figure animation", "stickman animation",
+        "pivot animation", "stykz", "stykanimate", "animate a fight",
+        "stickman fight", "stickman short film", "explainer stickman"
+      ]
+    }
+  ],
+  "capabilities": [
+    "plan-videos",
+    "render-mp4-video",
+    "export-stykanimate-projects",
+    "action-library",
+    "ik-walk-run-gait",
+    "camera-moves",
+    "environments-and-props",
+    "text-overlays",
+    "multi-scene-stories"
+  ],
+  "requires": {
+    "python": ">=3.10",
+    "ffmpeg": "on PATH",
+    "packages": ["Pillow>=10.0"]
+  },
+  "outputs": {
+    "video": "MP4 H.264, yuv420p, default 1920x1080 @ 30fps",
+    "project": "StykAnimate .styk container v1 (zlib+SHA-256, decoded-Pivot scene v5) and .styk.json",
+    "previews": "PNG stills at chosen timestamps",
+    "report": "report.json with durations, warnings, file list"
+  },
+  "provenance": {
+    "reverse_engineered_from": "https://github.com/filippocalippo/StykAnimate-App",
+    "analysis_tooling": "REA (https://github.com/morluto/rea) static analysis + source study",
+    "planning_methodology": "adapted from https://github.com/kaomei/stickman-video-director"
+  }
+}
