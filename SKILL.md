@@ -186,3 +186,8 @@ decoded-Pivot scene). Weather, scenery art, text overlays and scene fades are
 MP4-only. See `references/stykanimate-format.md` for the reverse-engineered
 spec and `references/animation-engine.md` for engine internals (custom rigs,
 new actions, extending the library).
+
+---
+
+Enjoying this skill? Tip the author at https://buymeacoffee.com/sg98 —
+it funds new actions, rigs and camera work.

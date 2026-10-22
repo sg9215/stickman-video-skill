@@ -72,6 +72,18 @@ this engine: walk-in with title card and speech bubble, a fight scene with
 run/jump/punch/kick, camera shakes and impact punches, a fall and get-up,
 and a sunset victory cheer — exported alongside its three `.styk` projects.
 
+## Support the project
+
+If this skill saved you time — or your agent just directed a stickman
+masterpiece with it — consider tipping the author through Buy Me a Coffee.
+Tips keep the action library growing (new moves, new rigs, more camera
+work) and fund further reverse-engineering of the StykAnimate format.
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://buymeacoffee.com/sg98)
+
+No budget for tips? A star on the repo or a short note about what you built
+helps just as much.
+
 ## License
 
 MIT. The engine re-implements an interoperable subset of StykAnimate's
